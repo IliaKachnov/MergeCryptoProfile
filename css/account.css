@@ -1,0 +1,361 @@
+.account {
+  margin-left: 330px;
+  margin-top: 110px;
+}
+.account__title {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.1px;
+}
+.account__first-section {
+  display: flex;
+  gap: 26px;
+  margin-top: 32px;
+}
+.section__total {
+  width: 454px;
+  height: 195px;
+  border-radius: 20px;
+  background: linear-gradient(210deg, #6808e1 0%, rgba(43, 26, 232, 0.34) 100%);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.total {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  margin-left: 52px;
+  margin-top: 20px;
+}
+.mergm {
+  color: #fff;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  margin-left: 52px;
+  margin-top: 5px;
+}
+.dollars {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  margin-left: 52px;
+  margin-top: 5px;
+}
+.buy__btn {
+  padding: 7px 11px;
+  border-radius: 20px;
+  background: #fff;
+  color: #510ec6;
+  width: 162px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  margin-left: 52px;
+  margin-top: 38px;
+}
+.arrow {
+  margin-left: 10px;
+}
+.coin {
+  width: 279px;
+  height: 276px;
+  position: absolute;
+  left: 45%;
+  top: -18%;
+}
+.info__block {
+  width: 213px;
+  height: 195px;
+  border-radius: 20px;
+  background: #39394a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info__currency {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  margin-top: 20px;
+}
+.info__total {
+  color: #fff;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  margin-top: 40px;
+}
+.info__btns {
+  margin-top: 15px;
+  display: flex;
+  width: 180px;
+  gap: 20px;
+}
+.transfer__wrapper {
+  width: 45px;
+  height: 40px;
+  border-radius: 5px;
+  background: #1f75ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.transfer,
+.deposit,
+.withdraw {
+  color: #fff;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+.deposit__wrapper {
+  width: 45px;
+  height: 40px;
+  border-radius: 5px;
+  background: #510ec6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.withdraw__wrapper {
+  width: 45px;
+  height: 40px;
+  border-radius: 5px;
+  background: #a900f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.account__second-section {
+  display: flex;
+  gap: 26px;
+  margin-top: 26px;
+}
+.memberships {
+  color: #fff;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  margin-left: 52px;
+  margin-top: 20px;
+}
+.standard {
+  margin-top: 8px;
+}
+.standard,
+.upgrade {
+  color: #ababab;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  margin-left: 52px;
+  width: 314px;
+}
+
+.account__transactions {
+  margin-top: 26px;
+  margin-bottom: 50px;
+}
+.transactions__title {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.transactions__block {
+  width: 688px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  margin-top: 28px;
+}
+.transactions__block.purple {
+  border-radius: 12px;
+  background: linear-gradient(204deg, #6808e1 0%, rgba(43, 26, 232, 0.34) 100%);
+  box-shadow: 0px 14px 54px 0px rgba(0, 0, 0, 0.25);
+}
+.transactions__img-wrapper {
+  height: 64px;
+  width: 64px;
+  border-radius: 83px;
+  border: 1px solid #292932;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 19px;
+}
+.img__wrapper {
+  margin-left: 19px;
+}
+.transactions__transfer-text {
+  width: 125px;
+  margin-left: 10px;
+}
+.transfer__title {
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.transfer__date {
+  color:#A5B3CD;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.accepted__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 123px;
+}
+.circle__status {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: #179C34;
+  border-radius: 50%;
+}
+.accepted {
+  margin-left: 6px;
+  color: #A5B3CD;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.vector__img {
+  margin-left: 101px;
+}
+.amount {
+  margin-left: 60px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.info__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+}
+
+@media (max-width: 1300px) {
+  .account__first-section {
+    flex-wrap: wrap;
+  }
+  .account__second-section {
+    flex-wrap: wrap;
+  }
+  .account__transactions {
+    overflow: auto;
+  }
+}
+@media (max-width: 800px) {
+  .account {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 670px) {
+  .account {
+    margin-left: 120px;
+  }
+}
+@media (max-width: 580px ) {
+  .account {
+    margin-left: 80px;
+  }
+}
+@media (max-width: 540px ) {
+  /* .section__total,
+  .info__wrapper {
+    transform: scale(.8);
+  } */
+  .info__wrapper {
+    flex-direction: column;
+  }
+  .info__block {
+    max-width: 400px;
+  }
+  .section__total {
+    height: 414px;
+    width: 213px;
+  }
+  .coin {
+    left: -15%;
+    top: 45%;
+  }
+  .buy__btn,
+  .dollars,
+  .mergm,
+  .total {
+    margin-left: 0;
+  }
+  .memberships,
+  .standard,
+  .upgrade,
+  .buy__btn {
+    margin-left: 0;
+    width: 100%;
+  }
+  .memberships {
+    font-size: 18px;
+    text-align: center;
+  }
+  .section__total {
+    align-items: center;
+  }
+  .standard,
+  .upgrade {
+    font-size: 15px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .upgrade {
+    margin-top: 5px;
+  }
+  .buy__btn {
+    margin-top: 40px;
+    width: 170px;
+  }
+  .section__total.second {
+    height: 250px;
+  }
+}
+

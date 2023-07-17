@@ -1,0 +1,122 @@
+.referrals {
+  margin-left: 330px;
+  margin-top: 110px;
+  margin-bottom: 50px;
+}
+.referrals__title {
+  color: #FFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.1px;
+}
+.referrals__amount {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 25px;
+}
+.amount__purple {
+  color: #6808e1;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.referrals__discount {
+  color: #cdcdcd;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 4px;
+}
+.link__title {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 30px;
+}
+.referral__wrapper {
+  margin-top: 19px;
+  display: flex;
+  gap: 26px;
+}
+.link__wrapper {
+  width: 501px;
+  height: 84px;
+  border-radius: 12px;
+  background: #39394a;
+  box-shadow: 0px 14px 54px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+}
+.link {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  opacity: 0.8;
+  margin-left: 24px;
+}
+.copy__img {
+  cursor: pointer;
+}
+@media (max-width: 970px) {
+  .referrals  {
+    margin-left: 130px;
+  }
+}
+@media (max-width: 760px) {
+  .link__wrapper {
+    height: 60px;
+    width: 400px;
+  }
+  .copy__img {
+    height: 60px;
+    width: 60px;
+  }
+  .link {
+    font-size: 13px;
+  }
+}
+@media (max-width: 630px) {
+  .link__wrapper {
+    height: 50px;
+    width: 330px;
+  }
+  .copy__img {
+    height: 50px;
+    width: 50px;
+  }
+  .link {
+    font-size: 11px;
+  }
+}
+@media (max-width: 550px) {
+  .referrals  {
+    margin-left: 80px;
+  }
+}
+@media (max-width: 500px) {
+  .link__wrapper {
+    overflow: auto;
+  }
+  .copy__img {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 375px) {
+  .link__title {
+    font-size: 16px;
+  }
+  .referrals__amount {
+    font-size: 16px;
+  }
+}

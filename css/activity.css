@@ -1,0 +1,119 @@
+.activity {
+  margin-left: 330px;
+  margin-top: 110px;
+}
+.activity__title {
+  color: #FFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.1px;
+}
+.activity__first-section {
+  display: flex;
+  gap: 26px;
+  margin-top: 25px;
+}
+.activity__subtitle {
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.062px;
+}
+.recent__block {
+  width: 354px;
+  height: 336px;
+  border-radius: 20px;
+  background: #39394A;
+  display: flex;
+  overflow: auto;
+  justify-content: center;
+  flex-direction: column;
+}
+.recent__item {
+  display: flex;
+
+  margin-bottom: 20px;
+}
+.recent__img {
+  margin-left: 20px;
+}
+.currency__wrapper {
+  margin-left: 11px;
+}
+.currency__title {
+  color: #FFF;
+  font-size: 15.244px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22.867px;
+}
+.currency__hash {
+  color: #FFF;
+  font-size: 13.339px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.961px;
+  opacity: .4;
+}
+.currency__date {
+  color: #FFF;
+  font-size: 11.433px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.056px;
+  opacity: .4;
+  margin-left: 60px;
+}
+.graph__img {
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+.today__transaction {
+  margin-top: 21px;
+}
+@media (max-width: 1080px) {
+  .activity__first-section {
+    flex-wrap: wrap;
+  }
+  .today__transaction {
+    overflow: auto;
+  }
+}
+@media (max-width: 700px) {
+  .activity {
+    margin-left: 150px;
+  }
+}
+@media (max-width: 520px) {
+  .activity {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .activity {
+    margin-left: 70px;
+  }
+}
+@media (max-width: 435px) {
+  .activity__dashboard {
+    width: 254px;
+    height: 236px;
+  }
+  .recent__block {
+    width: 254px;
+    height: 100%;
+  }
+  .recent__item {
+    align-items: center;
+    justify-content: center;
+  }
+  .currency__date {
+    margin-left: 10px;
+  }
+  .today__transaction {
+    margin-top: 50px;
+  }
+}

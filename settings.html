@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="script.js" defer></script>
+    <title>Merge Crypto</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="nav">
+        <div class="nav__first-section">
+          <a href="#"><img class="logo" src="img/logo2.png" width="182" height="37"></a>
+          <input class="nav__search" type="search" placeholder="Search">
+          <img class="search__img" src="img/search.svg">
+        </div>
+        <div class="nav__second-section">
+          <div class="balance">
+            <span class="balance__total">100 MRG</span>
+          </div>
+          <a class="profile" href="#"><img  src="img/profile-pic.png" width="40" height="40"></a>
+        </div>
+      </nav>
+
+      <aside class="sidebar close">
+        <header>
+          <i class="bx bx-chevron-right toggle"></i>
+        </header>
+
+        <div class="menu-bar">
+          <div class="menu">
+            <ul class="menu-links">
+              <li class="nav-link">
+                <a href="index.html">
+                  <div class="icon__wrapper">
+                    <img class="" src="img/account.svg" />
+                  </div>
+                  <span class="text nav-text">Account</span>
+                </a>
+              </li>
+
+              <li class="nav-link">
+                <a href="referrals.html">
+                  <div class="icon__wrapper">
+                    <img class="" src="img/round-icon.svg" />
+                  </div>
+                  <span class="text nav-text">Referrals</span>
+                </a>
+              </li>
+
+              <li class="nav-link">
+                <a href="activity.html">
+                  <div class="icon__wrapper">
+                    <img src="img/menu-icon.svg">
+                  </div>
+                  <span class="text nav-text">Activity</span>
+                </a>
+              </li>
+
+              <li class="nav-link">
+                <a href="settings.html">
+                  <div class="icon__wrapper active">
+                    <img src="img/settings-active.svg">
+                  </div>
+                  <span class="text nav-text active">Settings</span>
+                </a>
+              </li>
+              <li>
+                <div class="nav__balance">
+                  <span class="nav__amount">100 MRG</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="help hide">
+            <h3 class="help__title">Help Center</h3>
+            <p class="help__text">If you have any questions, please contact us</p>
+            <a class="help__contact" href="#">Contact us</a>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <div class="settings">
+          <h3 class="settings__title">Account settings</h3>
+          <p class="settings__subtitle general">General settings</p>
+          <div class="settings__first-section">
+            <img class="settings__avatar" src="img/avatar.png" width="193" height="208">
+            <div class="settings__wrapper">
+              <div class="settings__field">
+                <p class="field__title">Support ID</p>
+                <div class="field__wrapper">
+                  <div class="data__wrapper">
+                    <p class="data">KnDj854ewb</p>
+                  </div>
+                  <img class="field__copy" src="img/copy-sm.png" width="44" height="45">
+                </div>
+              </div>
+  
+              <div class="settings__field">
+                <p class="field__title margin">Nickname</p>
+                <div class="field__wrapper">
+                  <div class="data__wrapper">
+                    <p class="data">satt3n</p>
+                  </div>
+                  <img class="field__copy" src="img/edit.png" width="44" height="45">
+                </div>
+              </div>
+  
+              <div class="settings__field">
+                <p class="field__title margin">Email</p>
+                <div class="field__wrapper">
+                  <div class="data__wrapper">
+                    <p class="data" >mergecrypto@help.com</p>
+                  </div>
+                  <img class="field__copy" src="img/edit.png" width="44" height="45">
+                </div>
+              </div>
+  
+              <div class="settings__field">
+                <p class="field__title margin">Password</p>
+                <div class="field__wrapper">
+                  <div class="data__wrapper">
+                    <input class="password" type="password" value="1234243" readonly>
+                  </div>
+                  <img class="field__copy" src="img/edit.png" width="44" height="45">
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="settings__subtitle login">Login history</p>
+          <p class="settings__signout">Sign out of your account on all devices except this one
+          </p>
+          <div class="btns__wrapper">
+            <button class="btn__end">End all other sessions</button>
+            <button class="btn__login-history">Login history</button>
+          </div>
+          <p class="settings__subtitle factor">Two-factor authentication</p>
+          <p class="settings__two-factor">Two-Factor Authentication (2FA) can be used to help protect your account from unauthorized access by requiring you to enter security code when you sign in</p>
+          <button class="btn__enable">Enable 2FA</button>
+          <p class="settings__subtitle personal">Deletion of personal data</p>
+          <button class="btn__delete">Delete account</button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

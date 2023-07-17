@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="script.js" defer></script>
+    <title>Merge Crypto</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="nav">
+        <div class="nav__first-section">
+          <a href="#"><img class="logo" src="img/logo2.png" width="182" height="37"></a>
+          <input class="nav__search" type="search" placeholder="Search">
+          <img class="search__img" src="img/search.svg">
+        </div>
+        <div class="nav__second-section">
+          <div class="balance">
+            <span class="balance__total">100 MRG</span>
+          </div>
+          <a class="profile" href="#"><img  src="img/profile-pic.png" width="40" height="40"></a>
+        </div>
+      </nav>
+
+      <aside class="sidebar close">
+        <header>
+          <i class="bx bx-chevron-right toggle"></i>
+        </header>
+
+        <div class="menu-bar">
+          <div class="menu">
+            <ul class="menu-links">
+              <li class="nav-link">
+                <a href="index.html">
+                  <div class="icon__wrapper">
+                    <img class="" src="img/account.svg" />
+                  </div>
+                  <span class="text nav-text">Account</span>
+                </a>
+              </li>
+
+              <li class="nav-link">
+                <a href="referrals.html">
+                  <div class="icon__wrapper">
+                    <img class="" src="img/round-icon.svg" />
+                  </div>
+                  <span class="text nav-text">Referrals</span>
+                </a>
+              </li>
+
+              <li class="nav-link">
+                <a href="#">
+                  <div class="icon__wrapper active">
+                    <img src="img/activity-active.svg">
+                  </div>
+                  <span class="text nav-text active">Activity</span>
+                </a>
+              </li>
+
+              <li class="nav-link">
+                <a href="settings.html">
+                  <div class="icon__wrapper">
+                    <img src="img/settings-icon.svg">
+                  </div>
+                  <span class="text nav-text">Settings</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="help hide">
+            <h3 class="help__title">Help Center</h3>
+            <p class="help__text">If you have any questions, please contact us</p>
+            <a class="help__contact" href="#">Contact us</a>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <div class="activity">
+          <h3 class="activity__title">Activities transaction</h3>
+          <div class="activity__first-section">
+            <div class="activity__block">
+              <p class="activity__subtitle">Your activity in 2023</p>
+              <img class="activity__dashboard" src="img/dashboard.png" width="354" height="336">
+            </div>
+
+            <div class="activity__recent">
+              <p class="activity__subtitle">Recent Activity</p>
+              <div class="recent__block">
+                <div class="recent__item">
+                  <img class="recent__img" src="img/transfer-purple.png" width="38" height="38">
+                  <div class="currency__wrapper">
+                    <p class="currency__title">MRG</p>
+                    <p class="currency__hash">INV3485930572</p>
+                  </div>
+                  <p class="currency__date">02 Jul 5: 40 am</p>
+                </div>
+
+                <div class="recent__item">
+                  <img class="recent__img" src="img/transfer-purple.png" width="38" height="38">
+                  <div class="currency__wrapper">
+                    <p class="currency__title">Near</p>
+                    <p class="currency__hash">INV8478290103</p>
+                  </div>
+                  <p class="currency__date">01 Jul 6: 45 pm</p>
+                </div>
+
+                <div class="recent__item">
+                  <img class="recent__img" src="img/transfer-purple.png" width="38" height="38">
+                  <div class="currency__wrapper">
+                    <p class="currency__title">USDT</p>
+                    <p class="currency__hash">INV78549031111</p>
+                  </div>
+                  <p class="currency__date">28 Jun 8: 20 pm</p>
+                </div>
+
+                <div class="recent__item">
+                  <img class="recent__img" src="img/transfer-purple.png" width="38" height="38">
+                  <div class="currency__wrapper">
+                    <p class="currency__title">USDT</p>
+                    <p class="currency__hash">INV78549031111</p>
+                  </div>
+                  <p class="currency__date">21 Jun 8: 20 pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="today__transaction">
+            <h3 class="activity__subtitle">Today transaction</h3>
+            <img class="graph__img" src="img/today-graph.png" width="734" height="274">
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

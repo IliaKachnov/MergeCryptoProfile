@@ -1,0 +1,18 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  color: white;
+  width: 100%;
+}
+main {
+  height: 100%;
+  flex: 1 1 auto;
+  background: #1A1A1E;
+}
