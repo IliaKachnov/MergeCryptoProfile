@@ -91,6 +91,15 @@
 }
 @media (max-width: 410px) {
   .balance {
-    display: none;
+    margin-right: 10px;
+  }
+  .balance__total {
+    font-size: 13px;
+  }
+  .profile {
+    margin-right: 10px;
+  }
+  .logo {
+    margin-left: 5px;
   }
 }
